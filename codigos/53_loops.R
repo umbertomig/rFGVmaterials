@@ -15,7 +15,7 @@ for (i in 1:10) {
   print(i)
 }
 
-lista_pessoas <- c("fasolin", "guisela", "gabi", "natalia")
+lista_pessoas <- c("guilherme", "guisela", "gabi", "natalia")
 for (i in lista_pessoas) {
   print(i)
   if (i=='natalia') {
