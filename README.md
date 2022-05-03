@@ -4,8 +4,10 @@ Neste repositório você encontrará os materiais necessários para acompanhar o
 
 No repositório temos as seguintes pastas:
 
-**1. arquivos**: Arquivos usados no curso
+**1. arquivos**: Arquivos usados no curso.
+
 **2. codigos**: Códigos usados no curso.
+
 **3. outros**: Instruções para carregar os bancos de dados e sugestões de livros.
 
-Caso algum arquivo não funcione, favor entrar em contato com o FGV Online. Buscaremos consertar o arquivo o mais rápido o possível.
+Caso algum arquivo não funcione, favor entrar em contato com o FGV Online.
