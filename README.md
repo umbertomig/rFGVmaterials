@@ -1,6 +1,6 @@
 # Materiais para o Curso de R para Ciência de Dados - FGV Online
 
-Neste repositório você encontrará os materiais necessários para acompanhar o Curso Online de R para Ciencia de Dados. Esse curso foi criado pelo [Prof. Umberto Mignozzetti](www.umbertomig.com) e disponínilizado pelo [FGV Online](http://www5.fgv.br/fgvonline/).
+Neste repositório você encontrará os materiais necessários para acompanhar o Curso Online de R para Ciencia de Dados. Esse curso foi criado pelo [Prof. Umberto Mignozzetti](https://www.umbertomig.com) e disponínilizado pelo [FGV Online](http://www5.fgv.br/fgvonline/).
 
 No repositório temos as seguintes pastas:
 
