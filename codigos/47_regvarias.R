@@ -3,8 +3,7 @@
 ##
 
 # Dados
-library(Zelig)
-data(PErisk)
+PErisk <- read.csv2('https://raw.githubusercontent.com/umbertomig/rFGVmaterials/master/arquivos/PErisk.csv')
 head(PErisk)
 
 # Sumário
@@ -17,7 +16,7 @@ mod <- lm(barb2~prsexp2+prscorr2, data=PErisk)
 summary(mod)
 
 # Outro exemplo
-data(turnout)
+turnout <- read.table('https://raw.githubusercontent.com/umbertomig/rFGVmaterials/master/arquivos/turnout.tab')
 head(turnout)
 summary(turnout)
 

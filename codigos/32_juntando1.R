@@ -3,8 +3,8 @@
 ##
 
 # Carregando pacotes e banco de dados
-library(Zelig); library(tidyverse)
-data(PErisk)
+library(tidyverse)
+PErisk <- read.csv2('https://raw.githubusercontent.com/umbertomig/rFGVmaterials/master/arquivos/PErisk.csv')
 head(PErisk)
 summary(PErisk)
 

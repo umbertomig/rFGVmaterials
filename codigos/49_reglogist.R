@@ -1,16 +1,15 @@
 ##
-### Regressão linear simples
+### Regressão Logística
 ##
 
 # Dados
-library(Zelig)
-data(turnout)
+turnout <- read.table('https://raw.githubusercontent.com/umbertomig/rFGVmaterials/master/arquivos/turnout.tab')
 head(turnout)
 summary(turnout)
 
 # Regressão logística
 
-# Exemplo: ir votar
+# Exemplo: decisão de ir ou não votar
 mod <- glm(vote~income+educate+age+race, data=turnout, family = binomial(link = "logit"))
 summary(mod)
 
