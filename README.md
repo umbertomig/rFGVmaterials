@@ -4,10 +4,10 @@ Neste repositório você encontrará os materiais necessários para acompanhar o
 
 No repositório temos as seguintes pastas:
 
-**1. arquivos**: Arquivos usados no curso.
+**1. [arquivos](https://github.com/umbertomig/rFGVmaterials/tree/master/arquivos)**: Arquivos usados no curso.
 
-**2. codigos**: Códigos usados no curso.
+**2. [codigos](https://github.com/umbertomig/rFGVmaterials/tree/master/codigos)**: Códigos usados no curso.
 
-**3. outros**: Instruções para carregar os bancos de dados e sugestões de livros.
+**3. [outros](https://github.com/umbertomig/rFGVmaterials/tree/master/outros)**: Instruções para carregar os bancos de dados e outras sugestões.
 
 Caso algum arquivo não funcione, favor entrar em contato com o FGV Online.
