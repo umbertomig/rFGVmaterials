@@ -22,31 +22,19 @@ No seu Browser, copie o link do arquivo. No meu software, o link é o seguinte: 
 
 ## No R
 
-Na linha de comando do R, digite o nome do objeto em que deseja colocar o arquivo, por exemplo `PErisk`, e leia usando o comando `read.csv`. O comando todo ficaria:
+Na linha de comando do R, digite o nome do objeto em que deseja colocar o arquivo, por exemplo `PErisk`, e leia usando o comando `read.csv2`. O comando todo ficaria:
 
 ```
-PErisk <- read.csv('https://raw.githubusercontent.com/umbertomig/rFGVmaterials/master/arquivos/PErisk.csv')
+PErisk <- read.csv2('https://raw.githubusercontent.com/umbertomig/rFGVmaterials/master/arquivos/PErisk.csv')
 ```
 
-Como a primeira coluna tem o nome de cada caso, um comando específico para esse banco de dados é adicionar `row.names = 1` ao comando anterior:
+Se você prefere usar o pacote `tidyverse`, então substitua o comando `read.csv` pelo comand `read_csv`:
 
 ```
-PErisk <- read.csv('https://raw.githubusercontent.com/umbertomig/rFGVmaterials/master/arquivos/PErisk.csv', row.names = 1)
+PErisk <- read_csv2('https://raw.githubusercontent.com/umbertomig/rFGVmaterials/master/arquivos/PErisk.csv')
 ```
 
-Ambos os comandos deverão surtir o mesmo efeito. Se você prefere usar o pacote `tidyverse`, então substitua o comando `read.csv` pelo comand `read_csv`:
-
-```
-PErisk <- read_csv('https://raw.githubusercontent.com/umbertomig/rFGVmaterials/master/arquivos/PErisk.csv')
-```
-
-E a coluna 1 seria o nome dos casos, mas o `read_csv` lê errado. Para consertar, você pode remover essa coluna:
-
-```
-PErisk <- PErisk[,-1]
-```
-
-Com `read.csv` você cria um objeto chamado `data.frame`. Com `read_csv`, você cria um objeto chamado `tibble`. Eles são equivalentes, mas se você quiser transformar um `tibble` em um `data.frame`, você pode digitar:
+Com `read.csv2` você cria um objeto chamado `data.frame`. Com `read_csv2`, você cria um objeto chamado `tibble`. Eles são equivalentes, mas se você quiser transformar um `tibble` em um `data.frame`, você pode digitar:
 
 ```
 PErisk <- as.data.frame(PErisk)
